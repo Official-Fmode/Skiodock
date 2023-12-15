@@ -64,5 +64,5 @@ function settings() {
     chrome.tabs.create({url: "chrome://os-settings"});
 }
 
-function settings();
-function files();
+settings();
+files();
