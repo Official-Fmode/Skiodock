@@ -63,3 +63,6 @@ function settings() {
     console.log("settings");
     chrome.tabs.create({url: "chrome://os-settings"});
 }
+
+function settings();
+function files();
